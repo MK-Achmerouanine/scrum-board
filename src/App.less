@@ -1,0 +1,27 @@
+@import '~antd/dist/antd.less';
+
+
+@primary-color: rgb(255,121,0);
+@primary-color-hover: black;
+.w-100 {width: 100%;}
+.my-1{margin: 1rem auto;}
+.mx-1{margin: auto 1rem;}
+.tag-w-100{
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .tag-w-100{
+        font-size: .66rem;
+    }
+    .ant-progress-inner{
+        min-width: 120px !important;
+        width: 100% !important;
+        height: fit-content !important;
+        font-size: 1rem !important;
+    }
+    .ant-card-head-title {
+      font-size: .7rem;
+    }
+  }
